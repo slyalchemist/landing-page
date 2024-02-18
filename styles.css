@@ -1,0 +1,29 @@
+html{
+     background-color: #1F2937;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 8px;
+}
+
+.link{
+    list-style: none;
+    font-size: 18px;
+    color: #E5E8EB;
+}
