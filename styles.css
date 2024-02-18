@@ -2,6 +2,12 @@ html{
      background-color: #1F2937;
 }
 
+button{
+    background-color: #3882F6;
+    color: #E5E8EB;
+    padding: 4px 16px 4px;
+    border-radius: 6px;
+}
 .header{
     display: flex;
     justify-content: center;
@@ -26,4 +32,47 @@ html{
     list-style: none;
     font-size: 18px;
     color: #E5E8EB;
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.opener{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 32px;
+}
+
+.placeholder{
+    height: auto;
+    width: 40vw;
+    border: 2px white;
+    flex-shrink: 0;
+}
+.pretext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.pretext h2{
+    font-size: 48px;
+    font-style: extra-bold;
+    color: #F9FAF8;
+}
+
+.pretext p{
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.pretext button{
+
 }
