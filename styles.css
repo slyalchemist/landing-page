@@ -76,3 +76,45 @@ button{
 .pretext button{
 
 }
+
+.information{
+    background-color: #F9FAF8;
+    margin: 0;
+}
+
+.information h3{
+    font-size: 36px;
+    font-style: extra-bold;
+    color: #1F2937;
+    text-align: center;
+    padding: 16px;
+}
+
+.info-graphics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 8px;
+}
+
+.info-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.info-box img{
+    min-width: 50px;
+    max-width: 18vw;
+    flex-shrink: 0;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.info-box p{
+    text-align: center;
+    color: #1F2937;
+}
